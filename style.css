@@ -1,0 +1,19 @@
+/* Custom CSS for Island Snow project */
+
+/* Example styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
