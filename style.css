@@ -1,19 +1,60 @@
 /* Custom CSS for Island Snow project */
 
-/* Example styling */
+/* General styling */
 body {
     font-family: Arial, sans-serif;
 }
 
+/* Navbar */
 .navbar {
     margin-bottom: 20px;
 }
 
+/* Nav-link styling */
 .nav-link {
     font-weight: bold;
-    color: #007bff;
+    color: black;
 }
 
 .nav-link:hover {
     color: #0056b3;
+}
+
+/* Make social media icons closer together */
+.nav-item {
+    margin-right: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #292929;
+    color: white;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer hr {
+    border-top: 1px solid white;
+}
+
+footer .footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Newsletter input and button */
+.newsletter-input {
+    border-radius: 0;
+    width: 60%;
+}
+
+footer .btn-dark {
+    width: auto;
+    white-space: nowrap;
 }
